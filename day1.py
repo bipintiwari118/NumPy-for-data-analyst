@@ -63,3 +63,33 @@ print(b[1,1,1]) #accessing the second element of the second row of the second la
 print(b[1,1,2]) #accessing the third element of the second row of the second layer
 
 print(b[1,1,2]) #accessing the third element of the second row of the second layer using a single index
+
+
+
+
+
+
+
+
+
+
+
+#NumPy Array Slicing
+
+bipin=np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print(bipin[0:5]) #slicing the first 5 elements of the array
+print(bipin[5:10]) #slicing the last 5 elements of the array
+print(bipin[0:10:2]) #slicing every second element of the array
+print(bipin[1:10:2]) #slicing every second element of the array starting from the second element
+print(bipin[:5]) #slicing the first 5 elements of the array
+
+print(bipin[-3:-1])
+
+
+
+#slicing 2-D Array
+a=np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(a)
+print(a[0:2,2:3])
+
+
